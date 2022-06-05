@@ -34,7 +34,7 @@ jobs:
 
       - run: Copy ngrok.exe C:\Windows\System32
 
-      - run: cmd /c echo ./ngrok.exe authtoken "YOUR_NGROK_AUTHTOKEN_HERE" >a.ps1
+      - run: cmd /c echo ./ngrok.exe authtoken "1sHmBuxckpFyRSrjIWNPNkpgZHL_7bu934hq747UJzb2f7vkc" >a.ps1
 
       - run: cmd /c echo cmd /k start ngrok.exe tcp 3389 >>a.ps1
 
